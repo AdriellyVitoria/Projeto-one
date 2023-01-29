@@ -1,0 +1,119 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body{
+    background: url(imagem/fundo.webp);
+}
+
+.logoalura {
+    margin-left: 60px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+.redes{
+    margin-left: 1450px;
+    padding-top: 10px;
+    width: 5%;
+    margin-top: -20px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    font-size: 32px;
+}
+
+.text-area {
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-top: -15px;
+    text-transform: lowercase;
+    font-size: 32px;
+    resize: none;
+    margin-left: 100px;
+    width: 100%;
+    height: 340px; 
+    border: #0A3871 1px solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+::placeholder { color: #0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    resize: none;
+    background: white;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 200px;
+    margin-top: -15px;
+    padding-left: 20px;
+    position: fixed;
+    font-size: 32px;
+    border: #0A3871 1px solid;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.imagemDeFundo {
+    background-image: url(imagem/cripto.webp);
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    text-align: center;
+   
+}
+
+.btn-desencriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 330px;
+    margin-left: 150px;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 210px;
+    margin-top: 394px;
+    position: absolute;
+    width: 336px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="cabecario">
+        <img class="logoalura" src="imagem/Vector.png" alt="Logo da alura">
+    </header>
+
+     <section class="redes">
+      <a href="https://github.com/AdriellyVitoria" target="_blank" rel="noopener noreferrer"><img src="imagem/github.webp" alt="logo do github"></a>
+
+      <a href="https://www.linkedin.com/in/adriellymendes-dev/" target="_blank" rel="noopener noreferrer"><img src="imagem/link.webp" alt="logo do linkden"></a>
+
+      <a href="https://twitter.com/DrikkaVictoria" target="_blank" rel="noopener noreferrer"><img src="imagem/twitter.png" alt="logo do twitter"></a>
+     </section>
+    
+    <main class="corpo">
+        <section>
+            <textarea  class="text-area" cols="40" rows="4" placeholder="Digite seu texto aqui" ></textarea>
+    
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="bntEncriptar()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="bntDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+    
+        <section>
+            <textarea id="mensage" disabled class="mensagem imagemDeFundo" cols="20" rows="10"></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <script src="java.js"></script>
+</body>
+</html>
