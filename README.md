@@ -2,9 +2,13 @@
   Codificador e Decodificador de Texto
 </h1>
 
+<p align="center">
+<img src="https://github.com/AdriellyVitoria/projeto-one/blob/master/fotodoprojeto.jpg" >
+</p>
+
 ## 💻 Projeto
 
-Projeto dessevolvido durante o programa ONE basicamente é construir um decodificador de texto com Javascript seguindo as seguintes intruções para criar as "chaves" de criptografia que usado no projeto são:
+Projeto desenvolvido durante o programa ONE basicamente é construir um decodificador de texto com Javascript seguindo as seguintes instruções para criar as "chaves" de criptografia que usado no projeto são:
 - A letra "e" é convertida para "enter"
 - A letra "i" é convertida para "imes"
 - A letra "a" é convertida para "ai"
